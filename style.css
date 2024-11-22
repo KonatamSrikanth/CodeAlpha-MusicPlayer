@@ -1,0 +1,77 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  background-image: url("images/1121240.jpg");
+  background-size: cover;  
+  background-position: center center;  
+  background-repeat: no-repeat;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.music-player {
+  width: 300px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+}
+
+.cover img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.song-info h2,
+.song-info h3 {
+  margin: 10px 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.controls button {
+  background: #333333;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.controls button:hover {
+  background: #555555;
+}
+
+.progress-container {
+  background: #333333;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 5px;
+  margin: 10px 0;
+  position: relative;
+}
+
+.progress {
+  background: #1db954;
+  height: 100%;
+  width: 0%;
+  border-radius: 5px;
+}
